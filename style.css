@@ -1,0 +1,117 @@
+@font-face{
+        font-family: myFont;
+        src: url('georgia-2-cufonfonts-webfont/georgia.woff');
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    font-family: myFont,sans-serif;
+}
+
+.main-table{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 10px solid #666666;
+    border-bottom: 10px solid #666666;
+    background-color: #F5F5F5;
+}
+.my-table{
+    width: 80%;
+    margin: auto;
+}
+.my-table td{
+    border-top: 1px solid #666666;
+    vertical-align: top;
+}
+.my-table th h1{
+    font-size: 48px;
+    line-height: 10px;
+    font-weight: 400;
+}
+.my-table th p{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+th{
+    text-align: left;
+}
+a{
+    text-decoration: none;
+   color: darkred;
+}
+.table-head-left-part{
+    vertical-align: bottom;
+}
+.table-head-left-part .download-btn{
+    background-color: #666666;
+    padding: 10px 30px;
+    top: 80%;
+}
+.table-head-left-part .download-btn a{
+     color: white;
+
+}
+.table-head-left-part .email-adress{
+   margin: auto;
+}
+.my-table tr h2{
+    font-size: 20px;
+    font-style: italic;
+    line-height: 20px;
+    font-family: myfont;
+}
+.my-table tr>td>p{
+    font-size: 19px;
+    line-height: 24px;
+    color: #444444;
+}
+
+.my-table .technical .languages-table table  {
+    width: 100%;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    font-size: 100%;
+}
+.my-table .technical .languages-table td{
+    width: 35%;
+    border: none;
+    margin-right: 650px;
+    
+}
+.my-table .technical .languages-table .line-part td{
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+
+
+.experience {
+    position: relative;
+}
+.experience .years{
+    position: absolute;
+    bottom: 60%;
+    right: 10%;
+}
+
+.skills li{
+    width: 32%;
+    display: inline-block;
+
+}
+tfoot{
+    margin: 20px;
+}
+tfoot p{
+    margin-top: 20px;
+    width: 70%;
+    height: 100px;  
+    margin: auto;
+    font-weight: 100;
+    line-height: 18px;
+}
